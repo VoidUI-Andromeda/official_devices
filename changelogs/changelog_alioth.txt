@@ -1,0 +1,5 @@
+========================
+VoidUI Andromeda - Initial Changelog
+========================
+List of changes will be here
+========================

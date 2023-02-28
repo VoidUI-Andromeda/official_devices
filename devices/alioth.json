@@ -1,0 +1,27 @@
+{
+	"response": [
+		{
+			"maintainer": "johnmart19",
+			"oem": "Poco",
+			"device": "Redmi K40/ POCO F3/ Mi 11x",
+			"filename": "VoidUI-Andromeda-alioth-14.0-20240121-1347-OFFICIAL.zip",
+			"download": "https://sourceforge.net/projects/voidui/files/alioth/Weeklies/VoidUI-Andromeda-alioth-14.0-20240121-1347-OFFICIAL.zip/download",
+			"timestamp": 1705844756,
+			"md5": "38daeb31f210486103bfc84d8077cc2e",
+			"sha256": "972a6598257a6e9749bb0d07de4c9406e3273ed6b762cb1d6c7c61625daa4715",
+			"size": 2277632870,
+			"version": Andromeda,
+			"buildtype": "Beta Testing",
+			"forum": "https://t.me/VoidUI_Updates",
+			"firmware": "https://xiaomifirmwareupdater.com/firmware/alioth/",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://eu.dl.twrp.me/alioth/",
+			"paypal": "https://www.patreon.com/johnmart19",
+			"telegram": "https://t.me/VoidUI_Updates",
+			"dt": "https://github.com/VoidUI-Devices/device_xiaomi_alioth",
+			"common-dt": "https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common",
+			"kernel": "https://github.com/VoidUI-Devices/kernel_xiaomi_sm8250"
+		}
+	]
+}
