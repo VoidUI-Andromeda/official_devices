@@ -1,5 +1,14 @@
 ========================
-VoidUI Andromeda - Initial Changelog
+VoidUI Andromeda - Alioth - Initial Changelog
 ========================
-List of changes will be here
+Short changelog:
+- Rework device trees on top of Latest LineageOS 21 trees
+- Cleanup and rework big amount of changes, not all changes were reviewed and partially added back yet
+- Clean rework of kernel on top of latest qcom-8250, kernel version 4.19.234
+- Switch to Xiaomi VibratorFeature for vibrator effects and add pattern overlays
+- Added back parts [DC Dimming, Thermal Profiles, Mi Sound, TouchFeature, Pep-App Refresh Rate & QSTile]
+- Added back MiSound, Dolby Atmos, Dolby Codecs, updated Colour Modes, more clean implementation of Miui Camera changes and more...
+- Hide Sec Patch to Jan 5 2024 and add PixelPropsUtils and various updates to currently bypass CTS
+- Added back GameProps and Unlimited Google Photos
+- Added back Updater support and minimal UI changes
 ========================
