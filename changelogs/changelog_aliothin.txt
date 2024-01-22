@@ -1,4 +1,22 @@
 ========================
+VoidUI Andromeda - 1.0.1
+========================
+- Switch to LOS 21 hardware/qcom-caf/sm8250/audio & display & media & vendor/qcom/opensource/display & display-commonsys & display-commonsys-intf
+- hardware/xiaomi: Import changes of power-libperfmgr
+device/xiaomi/sm8250-common:
+ * Set default_network to 33 for 5G
+ * Disable global mode and CDMA choices
+ * Drop Qualcomm WFD & drop support protected Wi-Fi Display buffers
+ * Dolby: Disable EAC4 Support
+ * BT: Compile out android.hardware.bluetooth.audio@2.0-impl and 2.1 versions
+ * BT: Props: Disable fm in btconfigstore
+ * SystemUI: Disable client composition cache
+ * SystemUI: Disable SF composition prediction model
+ * SystemUI: Switch to AutoSingleLayer Android 13 Setting
+ * SystemUI: Disable Skia tracing by default
+ * Updates: Nuke OTA Preopt Script
+ * Updates: Enable ART Flags for A/B as per Google Recommendations
+========================
 VoidUI Andromeda - Alioth - Initial Changelog
 ========================
 Short changelog:
