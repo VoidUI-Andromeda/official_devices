@@ -1,4 +1,13 @@
 ========================
+VoidUI Andromeda - 1.0.2
+========================
+- Dolby Atmos [Audio] Fixes:
+  * audioflinger: Do not allow DAP effect to be suspended
+  * AudioFlinger: Import Minimal Dolby Environment Changes:
+   - Import ds_config.h and DmsParams.h from Miui
+   - Export part of classes required for Audio Effects management as public classes of AudioFlinger
+- Alioth: Import full stock dax-default config
+========================
 VoidUI Andromeda - 1.0.1
 ========================
 - Switch to LOS 21 hardware/qcom-caf/sm8250/audio & display & media & vendor/qcom/opensource/display & display-commonsys & display-commonsys-intf
