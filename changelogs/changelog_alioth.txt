@@ -1,4 +1,13 @@
 ========================
+VoidUI Andromeda - 1.0.4 - modem related
+========================
+sm8250-common:
+ * sepolicy: Address vendor_mdm_helper denials
+ * sepolicy: Label xiaomi modem boot devices
+ * Inherit SDX55M tombstones sepolicy rules for mdmhelper
+ * Enable SSR for all subsytem types
+ * sepolicy: Allow vendor init to set SSR property
+========================
 VoidUI Andromeda - 1.0.3
 ========================
 sm8250-common:
