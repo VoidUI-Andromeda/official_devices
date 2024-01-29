@@ -1,4 +1,10 @@
 ========================
+VoidUI Andromeda - 1.0.5
+========================
+- Fix gplay integrity
+- Revert Redline back to stock naming
+- Add support for FullScreen gestures
+========================
 VoidUI Andromeda - 1.0.4 - modem related
 ========================
 sm8250-common:
