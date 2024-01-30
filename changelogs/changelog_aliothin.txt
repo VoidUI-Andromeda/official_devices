@@ -1,4 +1,9 @@
 ========================
+VoidUI Andromeda - 1.0.7 [Beta Theming]
+========================
+- Add back Black Theme support
+- Add back Monet Customizations Support
+========================
 VoidUI Andromeda - 1.0.6
 ========================
 - Add back LTE+ icon by default
