@@ -1,4 +1,14 @@
 ========================
+VoidUI Andromeda - 1.0.6
+========================
+- Add back LTE+ icon by default
+- Add back burn-in protection for statusbar and navbar
+- Add support of adding/removing QS tiles with one click
+- Added Deep Sleep info into uptime settings
+- Added back showing alarm and vibrate status bar icons
+- Added back NFC tile
+- Added back cutout force full screen option
+========================
 VoidUI Andromeda - 1.0.5
 ========================
 - Fix gplay integrity
