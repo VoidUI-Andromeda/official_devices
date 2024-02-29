@@ -1,95 +1,22 @@
 ========================
-VoidUI Andromeda - 1.0.7 [Beta Theming]
+VoidUI Andromeda QPR1 v1.0.0
 ========================
-- Add back Black Theme support
-- Add back Monet Customizations Support
-========================
-VoidUI Andromeda - 1.0.6
-========================
-- Add back LTE+ icon by default
-- Add back burn-in protection for statusbar and navbar
-- Add support of adding/removing QS tiles with one click
-- Added Deep Sleep info into uptime settings
-- Added back showing alarm and vibrate status bar icons
-- Added back NFC tile
-- Added back cutout force full screen option
-========================
-VoidUI Andromeda - 1.0.5
-========================
-- Fix gplay integrity
-- Revert Redline back to stock naming
-- Add support for FullScreen gestures
-========================
-VoidUI Andromeda - 1.0.4 - modem related
-========================
-sm8250-common:
- * sepolicy: Address vendor_mdm_helper denials
- * sepolicy: Label xiaomi modem boot devices
- * Inherit SDX55M tombstones sepolicy rules for mdmhelper
- * Enable SSR for all subsytem types
- * sepolicy: Allow vendor init to set SSR property
-========================
-VoidUI Andromeda - 1.0.3
-========================
-sm8250-common:
- * init: Don't mount TraceFS twice
- * Set userdata filesystem
- * Remove some camera-daemon commands
- * Only allow 5G SA on Jio
- * Enable VoNR on Jio 5G
- * Use the new auto network selection UI
- * Add Pakistan mcc configs
- - Audio: 
- * Enable support of HW Accelerated Effects
- * Enable building ssrec for Audio Externals
-Alioth: Import hw impl for audiohalext backend
-hardware/interfaces: btaudio: aidl: Support offloading all LDAC qualities
-frameworks/base: Don't fail setDeviceConnectionState if not implemented in hal
-Kernel:
- * drivers: input: touchscreen: Prevent unnecessary input sync
- * arch: arm64: configs: xiaomi: disable per-cgroup pressure tracking
- * drivers: esoc: Honor BOOT_FAIL_ACTION_DEF value
- * drivers: esoc: mdm: Set boot fail action to NOP
- * subsystem_restart: Always performs soft resets when subsystems crash
- * Revert "genirq/irqdomain: Don't try to free an interrupt that has no mapping"
-========================
-VoidUI Andromeda - 1.0.2
-========================
-- Dolby Atmos [Audio] Fixes:
-  * audioflinger: Do not allow DAP effect to be suspended
-  * AudioFlinger: Import Minimal Dolby Environment Changes:
-   - Import ds_config.h and DmsParams.h from Miui
-   - Export part of classes required for Audio Effects management as public classes of AudioFlinger
-- Alioth: Import full stock dax-default config
-========================
-VoidUI Andromeda - 1.0.1
-========================
-- Switch to LOS 21 hardware/qcom-caf/sm8250/audio & display & media & vendor/qcom/opensource/display & display-commonsys & display-commonsys-intf
-- hardware/xiaomi: Import changes of power-libperfmgr
-device/xiaomi/sm8250-common:
- * Set default_network to 33 for 5G
- * Disable global mode and CDMA choices
- * Drop Qualcomm WFD & drop support protected Wi-Fi Display buffers
- * Dolby: Disable EAC4 Support
- * BT: Compile out android.hardware.bluetooth.audio@2.0-impl and 2.1 versions
- * BT: Props: Disable fm in btconfigstore
- * SystemUI: Disable client composition cache
- * SystemUI: Disable SF composition prediction model
- * SystemUI: Switch to AutoSingleLayer Android 13 Setting
- * SystemUI: Disable Skia tracing by default
- * Updates: Nuke OTA Preopt Script
- * Updates: Enable ART Flags for A/B as per Google Recommendations
-========================
-VoidUI Andromeda - Alioth - Initial Changelog
-========================
-Short changelog:
-- Rework device trees on top of Latest LineageOS 21 trees
-- Cleanup and rework big amount of changes, not all changes were reviewed and partially added back yet
-- Clean rework of kernel on top of latest qcom-8250, kernel version 4.19.234
-- Switch to Xiaomi VibratorFeature for vibrator effects and add pattern overlays
-- Added back parts [DC Dimming, Thermal Profiles, Mi Sound, TouchFeature, Pep-App Refresh Rate & QSTile]
-- Added back MiSound, Dolby Atmos, Dolby Codecs, updated Colour Modes, more clean implementation of Miui Camera changes and more...
-- Hide Sec Patch to Jan 5 2024 and add PixelPropsUtils and various updates to currently bypass CTS
-- Added back GameProps and Unlimited Google Photos
-- Added back Updater support and minimal UI changes
+- Initial Android 14 Bringup on top of PixelExperience QPR1 February 2024 Patch
+- Rework of device trees on top of latest LineageOS 21
+- Add back support of High Touch Polling Rate
+- Added back: 
+* Updater
+* Camera-related changes (+ Reworked & Updated)
+* VibratorFeature
+* Android RunTime optimizations
+* Black Theme & Monet Customizations 
+* Burn-in Protection
+* Add/remove QS tiles by clicking on them
+* More...
+- To Do:
+* Add back more customizations & GameSpace
+* Add back Bootanimation
+* Add back Translations Support
+* Fix CTS
+* More...
 ========================
