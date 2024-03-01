@@ -1,4 +1,11 @@
 ========================
+VoidUI Andromeda QPR1 v1.0.1
+========================
+- Added support of: GameSpace, Reticker, DT2S, three-fingers-swipe to screenshot
+- Reimported PixelPropsUtils with GameProps
+- Imported NFC fix change for A14
+- Imported Bionic changes for future CTS fix
+========================
 VoidUI Andromeda QPR1 v1.0.0
 ========================
 - Initial Android 14 Bringup on top of PixelExperience QPR1 February 2024 Patch
