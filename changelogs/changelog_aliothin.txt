@@ -1,4 +1,9 @@
 ========================
+VoidUI Andromeda QPR1 v1.0.1 - [CTS Fix]
+========================
+- Fixed Play Integrity
+- Contains all previous changes
+========================
 VoidUI Andromeda QPR1 v1.0.1
 ========================
 - Added support of: GameSpace, Reticker, DT2S, three-fingers-swipe to screenshot
