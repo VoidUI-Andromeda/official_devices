@@ -1,4 +1,11 @@
 ========================
+VoidUI Andromeda QPR1 v1.0.2
+========================
+- Initial Crowdin translations
+- Allow sending vendor- or device-specific commands to the camera HAL.
+- DisplayModeDirector: minor improvements for refresh-rates
+- media: OMXStore: Import loading libstagefrightdolby [AC3, EAC3]
+========================
 VoidUI Andromeda QPR1 v1.0.1 - [CTS Fix]
 ========================
 - Fixed Play Integrity
