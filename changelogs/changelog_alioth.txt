@@ -1,4 +1,17 @@
 ========================
+VoidUI Andromeda QPR1 v1.0.3
+========================
+System:
+- Added support of Per-App volume control
+- Updated GamePropsUtils 
+- Added auto brightness button to QS brightness slider
+- Added support to force LTE_CA (LTE Channel Aggregation)
+- Added support to show daily data usage in QS footer
+sm8250-common:
+- Set subsystem restart level with ssr_setup util
+- FCM: Regenerate to current A14 environment
+- Import shsusrd service [It's started by netmgrd]
+========================
 VoidUI Andromeda QPR1 v1.0.2
 ========================
 - Initial Crowdin translations
